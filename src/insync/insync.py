@@ -93,7 +93,7 @@ class Policy:
         return sum(Policy.policies.values())
 
 
-class debugging():
+class debugging:
     def __init__(self):
         pass
     
