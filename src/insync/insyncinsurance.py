@@ -1,11 +1,5 @@
 import re
 
-def lt(a, b):
-    return a < b
-
-def le(a, b):
-    return a <= b
-
 refer = lambda code, *message: info('Refer', [code, ' '.join(map(str, message))])
 decline = lambda code, *message: info('Decline', [code, ' '.join(map(str, message))])
 
