@@ -67,7 +67,7 @@ pip install insyncinsurance
 ```
 
 ### Documentation
-The full documentation is available [here](https://www.insyncinsurance.co.uk/docs/).
+The full documentation is available [here](https://lewis-munday.gitbook.io/insync-insurance/).
 
 ## Roadmap
 
