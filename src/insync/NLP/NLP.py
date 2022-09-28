@@ -33,6 +33,11 @@ class NLP:
         return triggers
 
     def cleanse(self):
+        self.__text = ""
+        self.__triggers = []
+
+    def purge(self):
+        self.__text = ""
         self.__tokens = []
         self.__triggers = []
         self.__sentences = []
