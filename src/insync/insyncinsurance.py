@@ -1,4 +1,5 @@
 import re
+import NLP
 
 refer = lambda code, *message: info('Refer', [code, ' '.join(map(str, message))])
 decline = lambda code, *message: info('Decline', [code, ' '.join(map(str, message))])
